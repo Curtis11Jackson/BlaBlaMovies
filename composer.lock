@@ -2074,8 +2074,8 @@
                 "php": "^7.2.5"
             },
             "require-dev": {
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0"
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/http-foundation": ""
@@ -2132,13 +2132,13 @@
                 "psr/log": "~1.0",
                 "symfony/cache-contracts": "^1.1.7|^2",
                 "symfony/service-contracts": "^1.1|^2",
-                "symfony/var-exporter": "^4.4|^5.0"
+                "symfony/var-exporter": "^5.0.*|^5.0"
             },
             "conflict": {
                 "doctrine/dbal": "<2.5",
-                "symfony/dependency-injection": "<4.4",
-                "symfony/http-kernel": "<4.4",
-                "symfony/var-dumper": "<4.4"
+                "symfony/dependency-injection": "<5.0.*",
+                "symfony/http-kernel": "<5.0.*",
+                "symfony/var-dumper": "<5.0.*"
             },
             "provide": {
                 "psr/cache-implementation": "1.0",
@@ -2151,9 +2151,9 @@
                 "doctrine/dbal": "~2.5",
                 "predis/predis": "~1.1",
                 "psr/simple-cache": "^1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -2265,18 +2265,18 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/filesystem": "^4.4|^5.0",
+                "symfony/filesystem": "^5.0.*|^5.0",
                 "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
-                "symfony/finder": "<4.4"
+                "symfony/finder": "<5.0.*"
             },
             "require-dev": {
-                "symfony/event-dispatcher": "^4.4|^5.0",
-                "symfony/finder": "^4.4|^5.0",
-                "symfony/messenger": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^5.0.*|^5.0",
+                "symfony/finder": "^5.0.*|^5.0",
+                "symfony/messenger": "^5.0.*|^5.0",
                 "symfony/service-contracts": "^1.1|^2",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/yaml": "To use the yaml reference dumper"
@@ -2334,22 +2334,22 @@
                 "symfony/service-contracts": "^1.1|^2"
             },
             "conflict": {
-                "symfony/dependency-injection": "<4.4",
-                "symfony/event-dispatcher": "<4.4",
-                "symfony/lock": "<4.4",
-                "symfony/process": "<4.4"
+                "symfony/dependency-injection": "<5.0.*",
+                "symfony/event-dispatcher": "<5.0.*",
+                "symfony/lock": "<5.0.*",
+                "symfony/process": "<5.0.*"
             },
             "provide": {
                 "psr/log-implementation": "1.0"
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/event-dispatcher": "^4.4|^5.0",
-                "symfony/lock": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/event-dispatcher": "^5.0.*|^5.0",
+                "symfony/lock": "^5.0.*|^5.0",
+                "symfony/process": "^5.0.*|^5.0",
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
@@ -2410,9 +2410,9 @@
             },
             "conflict": {
                 "symfony/config": "<5.0",
-                "symfony/finder": "<4.4",
-                "symfony/proxy-manager-bridge": "<4.4",
-                "symfony/yaml": "<4.4"
+                "symfony/finder": "<5.0.*",
+                "symfony/proxy-manager-bridge": "<5.0.*",
+                "symfony/yaml": "<5.0.*"
             },
             "provide": {
                 "psr/container-implementation": "1.0",
@@ -2420,8 +2420,8 @@
             },
             "require-dev": {
                 "symfony/config": "^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/config": "",
@@ -2486,10 +2486,10 @@
             },
             "conflict": {
                 "phpunit/phpunit": "<5.4.3",
-                "symfony/dependency-injection": "<4.4",
+                "symfony/dependency-injection": "<5.0.*",
                 "symfony/form": "<5",
                 "symfony/http-kernel": "<5",
-                "symfony/messenger": "<4.4",
+                "symfony/messenger": "<5.0.*",
                 "symfony/property-info": "<5",
                 "symfony/security-bundle": "<5",
                 "symfony/security-core": "<5",
@@ -2503,20 +2503,20 @@
                 "doctrine/dbal": "~2.4",
                 "doctrine/orm": "^2.6.3",
                 "doctrine/reflection": "~1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
                 "symfony/form": "^5.0",
                 "symfony/http-kernel": "^5.0",
-                "symfony/messenger": "^4.4|^5.0",
-                "symfony/property-access": "^4.4|^5.0",
+                "symfony/messenger": "^5.0.*|^5.0",
+                "symfony/property-access": "^5.0.*|^5.0",
                 "symfony/property-info": "^5.0",
-                "symfony/proxy-manager-bridge": "^4.4|^5.0",
+                "symfony/proxy-manager-bridge": "^5.0.*|^5.0",
                 "symfony/security-core": "^5.0",
-                "symfony/stopwatch": "^4.4|^5.0",
-                "symfony/translation": "^4.4|^5.0",
+                "symfony/stopwatch": "^5.0.*|^5.0",
+                "symfony/translation": "^5.0.*|^5.0",
                 "symfony/validator": "^5.0.2",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "suggest": {
                 "doctrine/data-fixtures": "",
@@ -2576,7 +2576,7 @@
                 "php": "^7.2.5"
             },
             "require-dev": {
-                "symfony/process": "^4.4|^5.0"
+                "symfony/process": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -2632,11 +2632,11 @@
             "require": {
                 "php": "^7.2.5",
                 "psr/log": "^1.0",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "require-dev": {
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/serializer": "^4.4|^5.0"
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/serializer": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -2689,7 +2689,7 @@
                 "symfony/event-dispatcher-contracts": "^2"
             },
             "conflict": {
-                "symfony/dependency-injection": "<4.4"
+                "symfony/dependency-injection": "<5.0.*"
             },
             "provide": {
                 "psr/event-dispatcher-implementation": "1.0",
@@ -2697,12 +2697,12 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
                 "symfony/service-contracts": "^1.1|^2",
-                "symfony/stopwatch": "^4.4|^5.0"
+                "symfony/stopwatch": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/dependency-injection": "",
@@ -2814,7 +2814,7 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/cache": "^4.4|^5.0",
+                "symfony/cache": "^5.0.*|^5.0",
                 "symfony/service-contracts": "^1.1|^2"
             },
             "type": "library",
@@ -3013,8 +3013,8 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/event-dispatcher": "^4.4|^5.0",
-                "symfony/intl": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^5.0.*|^5.0",
+                "symfony/intl": "^5.0.*|^5.0",
                 "symfony/options-resolver": "^5.0",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-mbstring": "~1.0",
@@ -3023,26 +3023,26 @@
             },
             "conflict": {
                 "phpunit/phpunit": "<5.4.3",
-                "symfony/console": "<4.4",
-                "symfony/dependency-injection": "<4.4",
-                "symfony/doctrine-bridge": "<4.4",
-                "symfony/framework-bundle": "<4.4",
-                "symfony/http-kernel": "<4.4",
-                "symfony/intl": "<4.4",
-                "symfony/translation": "<4.4",
-                "symfony/twig-bridge": "<4.4"
+                "symfony/console": "<5.0.*",
+                "symfony/dependency-injection": "<5.0.*",
+                "symfony/doctrine-bridge": "<5.0.*",
+                "symfony/framework-bundle": "<5.0.*",
+                "symfony/http-kernel": "<5.0.*",
+                "symfony/intl": "<5.0.*",
+                "symfony/translation": "<5.0.*",
+                "symfony/twig-bridge": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/collections": "~1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/security-csrf": "^4.4|^5.0",
-                "symfony/translation": "^4.4|^5.0",
-                "symfony/validator": "^4.4|^5.0",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/security-csrf": "^5.0.*|^5.0",
+                "symfony/translation": "^5.0.*|^5.0",
+                "symfony/validator": "^5.0.*|^5.0",
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/security-csrf": "For protecting forms against CSRF attacks.",
@@ -3098,13 +3098,13 @@
             "require": {
                 "ext-xml": "*",
                 "php": "^7.2.5",
-                "symfony/cache": "^4.4|^5.0",
+                "symfony/cache": "^5.0.*|^5.0",
                 "symfony/config": "^5.0",
                 "symfony/dependency-injection": "^5.0.1",
-                "symfony/error-handler": "^4.4.1|^5.0.1",
-                "symfony/filesystem": "^4.4|^5.0",
-                "symfony/finder": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
+                "symfony/error-handler": "^5.0.*.1|^5.0.1",
+                "symfony/filesystem": "^5.0.*|^5.0",
+                "symfony/finder": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
                 "symfony/http-kernel": "^5.0",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/routing": "^5.0"
@@ -3114,59 +3114,59 @@
                 "phpdocumentor/reflection-docblock": "<3.0",
                 "phpdocumentor/type-resolver": "<0.2.1",
                 "phpunit/phpunit": "<5.4.3",
-                "symfony/asset": "<4.4",
-                "symfony/browser-kit": "<4.4",
-                "symfony/console": "<4.4",
-                "symfony/dom-crawler": "<4.4",
-                "symfony/dotenv": "<4.4",
-                "symfony/form": "<4.4",
-                "symfony/http-client": "<4.4",
-                "symfony/lock": "<4.4",
-                "symfony/mailer": "<4.4",
-                "symfony/messenger": "<4.4",
-                "symfony/mime": "<4.4",
-                "symfony/property-info": "<4.4",
-                "symfony/serializer": "<4.4",
-                "symfony/stopwatch": "<4.4",
+                "symfony/asset": "<5.0.*",
+                "symfony/browser-kit": "<5.0.*",
+                "symfony/console": "<5.0.*",
+                "symfony/dom-crawler": "<5.0.*",
+                "symfony/dotenv": "<5.0.*",
+                "symfony/form": "<5.0.*",
+                "symfony/http-client": "<5.0.*",
+                "symfony/lock": "<5.0.*",
+                "symfony/mailer": "<5.0.*",
+                "symfony/messenger": "<5.0.*",
+                "symfony/mime": "<5.0.*",
+                "symfony/property-info": "<5.0.*",
+                "symfony/serializer": "<5.0.*",
+                "symfony/stopwatch": "<5.0.*",
                 "symfony/translation": "<5.0",
-                "symfony/twig-bridge": "<4.4",
-                "symfony/twig-bundle": "<4.4",
-                "symfony/validator": "<4.4",
-                "symfony/web-profiler-bundle": "<4.4",
-                "symfony/workflow": "<4.4"
+                "symfony/twig-bridge": "<5.0.*",
+                "symfony/twig-bundle": "<5.0.*",
+                "symfony/validator": "<5.0.*",
+                "symfony/web-profiler-bundle": "<5.0.*",
+                "symfony/workflow": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.7",
                 "doctrine/cache": "~1.0",
                 "paragonie/sodium_compat": "^1.8",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0",
-                "symfony/asset": "^4.4|^5.0",
-                "symfony/browser-kit": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/css-selector": "^4.4|^5.0",
-                "symfony/dom-crawler": "^4.4|^5.0",
-                "symfony/dotenv": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/form": "^4.4|^5.0",
-                "symfony/http-client": "^4.4|^5.0",
-                "symfony/lock": "^4.4|^5.0",
-                "symfony/mailer": "^4.4|^5.0",
-                "symfony/messenger": "^4.4|^5.0",
-                "symfony/mime": "^4.4|^5.0",
+                "symfony/asset": "^5.0.*|^5.0",
+                "symfony/browser-kit": "^5.0.*|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/css-selector": "^5.0.*|^5.0",
+                "symfony/dom-crawler": "^5.0.*|^5.0",
+                "symfony/dotenv": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/form": "^5.0.*|^5.0",
+                "symfony/http-client": "^5.0.*|^5.0",
+                "symfony/lock": "^5.0.*|^5.0",
+                "symfony/mailer": "^5.0.*|^5.0",
+                "symfony/messenger": "^5.0.*|^5.0",
+                "symfony/mime": "^5.0.*|^5.0",
                 "symfony/polyfill-intl-icu": "~1.0",
-                "symfony/process": "^4.4|^5.0",
-                "symfony/property-info": "^4.4|^5.0",
-                "symfony/security-csrf": "^4.4|^5.0",
-                "symfony/security-http": "^4.4|^5.0",
-                "symfony/serializer": "^4.4|^5.0",
-                "symfony/stopwatch": "^4.4|^5.0",
+                "symfony/process": "^5.0.*|^5.0",
+                "symfony/property-info": "^5.0.*|^5.0",
+                "symfony/security-csrf": "^5.0.*|^5.0",
+                "symfony/security-http": "^5.0.*|^5.0",
+                "symfony/serializer": "^5.0.*|^5.0",
+                "symfony/stopwatch": "^5.0.*|^5.0",
                 "symfony/string": "~5.0.0",
                 "symfony/translation": "^5.0",
-                "symfony/twig-bundle": "^4.4|^5.0",
-                "symfony/validator": "^4.4|^5.0",
-                "symfony/web-link": "^4.4|^5.0",
-                "symfony/workflow": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0",
+                "symfony/twig-bundle": "^5.0.*|^5.0",
+                "symfony/validator": "^5.0.*|^5.0",
+                "symfony/web-link": "^5.0.*|^5.0",
+                "symfony/workflow": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0",
                 "twig/twig": "^2.10|^3.0"
             },
             "suggest": {
@@ -3243,9 +3243,9 @@
                 "nyholm/psr7": "^1.0",
                 "php-http/httplug": "^1.0|^2.0",
                 "psr/http-client": "^1.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0"
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/process": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -3352,12 +3352,12 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/mime": "^4.4|^5.0",
+                "symfony/mime": "^5.0.*|^5.0",
                 "symfony/polyfill-mbstring": "~1.1"
             },
             "require-dev": {
                 "predis/predis": "~1.0",
-                "symfony/expression-language": "^4.4|^5.0"
+                "symfony/expression-language": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -3408,17 +3408,17 @@
             "require": {
                 "php": "^7.2.5",
                 "psr/log": "~1.0",
-                "symfony/error-handler": "^4.4|^5.0",
+                "symfony/error-handler": "^5.0.*|^5.0",
                 "symfony/event-dispatcher": "^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
                 "symfony/polyfill-ctype": "^1.8",
                 "symfony/polyfill-php73": "^1.9"
             },
             "conflict": {
-                "symfony/browser-kit": "<4.4",
+                "symfony/browser-kit": "<5.0.*",
                 "symfony/cache": "<5.0",
                 "symfony/config": "<5.0",
-                "symfony/dependency-injection": "<4.4",
+                "symfony/dependency-injection": "<5.0.*",
                 "symfony/doctrine-bridge": "<5.0",
                 "symfony/form": "<5.0",
                 "symfony/http-client": "<5.0",
@@ -3434,18 +3434,18 @@
             },
             "require-dev": {
                 "psr/cache": "~1.0",
-                "symfony/browser-kit": "^4.4|^5.0",
+                "symfony/browser-kit": "^5.0.*|^5.0",
                 "symfony/config": "^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/css-selector": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/dom-crawler": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/finder": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0",
-                "symfony/routing": "^4.4|^5.0",
-                "symfony/stopwatch": "^4.4|^5.0",
-                "symfony/translation": "^4.4|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/css-selector": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/dom-crawler": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/finder": "^5.0.*|^5.0",
+                "symfony/process": "^5.0.*|^5.0",
+                "symfony/routing": "^5.0.*|^5.0",
+                "symfony/stopwatch": "^5.0.*|^5.0",
+                "symfony/translation": "^5.0.*|^5.0",
                 "symfony/translation-contracts": "^1.1|^2",
                 "twig/twig": "^2.4|^3.0"
             },
@@ -3564,7 +3564,7 @@
                 "symfony/polyfill-intl-icu": "~1.0"
             },
             "require-dev": {
-                "symfony/filesystem": "^4.4|^5.0"
+                "symfony/filesystem": "^5.0.*|^5.0"
             },
             "suggest": {
                 "ext-intl": "to use the component with locales other than \"en\""
@@ -3638,22 +3638,22 @@
                 "egulias/email-validator": "^2.1.10",
                 "php": "^7.2.5",
                 "psr/log": "~1.0",
-                "symfony/event-dispatcher": "^4.4|^5.0",
-                "symfony/mime": "^4.4|^5.0",
+                "symfony/event-dispatcher": "^5.0.*|^5.0",
+                "symfony/mime": "^5.0.*|^5.0",
                 "symfony/service-contracts": "^1.1|^2"
             },
             "conflict": {
-                "symfony/http-kernel": "<4.4"
+                "symfony/http-kernel": "<5.0.*"
             },
             "require-dev": {
-                "symfony/amazon-mailer": "^4.4|^5.0",
-                "symfony/google-mailer": "^4.4|^5.0",
+                "symfony/amazon-mailer": "^5.0.*|^5.0",
+                "symfony/google-mailer": "^5.0.*|^5.0",
                 "symfony/http-client-contracts": "^1.1|^2",
-                "symfony/mailchimp-mailer": "^4.4|^5.0",
-                "symfony/mailgun-mailer": "^4.4|^5.0",
-                "symfony/messenger": "^4.4|^5.0",
-                "symfony/postmark-mailer": "^4.4|^5.0",
-                "symfony/sendgrid-mailer": "^4.4|^5.0"
+                "symfony/mailchimp-mailer": "^5.0.*|^5.0",
+                "symfony/mailgun-mailer": "^5.0.*|^5.0",
+                "symfony/messenger": "^5.0.*|^5.0",
+                "symfony/postmark-mailer": "^5.0.*|^5.0",
+                "symfony/sendgrid-mailer": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -3707,11 +3707,11 @@
                 "symfony/polyfill-mbstring": "^1.0"
             },
             "conflict": {
-                "symfony/mailer": "<4.4"
+                "symfony/mailer": "<5.0.*"
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10",
-                "symfony/dependency-injection": "^4.4|^5.0"
+                "symfony/dependency-injection": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -3766,18 +3766,18 @@
             "require": {
                 "monolog/monolog": "^1.25.1|^2",
                 "php": "^7.2.5",
-                "symfony/http-kernel": "^4.4|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
                 "symfony/service-contracts": "^1.1|^2"
             },
             "conflict": {
-                "symfony/console": "<4.4",
-                "symfony/http-foundation": "<4.4"
+                "symfony/console": "<5.0.*",
+                "symfony/http-foundation": "<5.0.*"
             },
             "require-dev": {
-                "symfony/console": "^4.4|^5.0",
-                "symfony/http-client": "^4.4|^5.0",
-                "symfony/security-core": "^4.4|^5.0",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/http-client": "^5.0.*|^5.0",
+                "symfony/security-core": "^5.0.*|^5.0",
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/console": "For the possibility to show log messages in console commands depending on verbosity settings.",
@@ -3897,7 +3897,7 @@
                 "php": "^7.2.5"
             },
             "conflict": {
-                "symfony/http-kernel": "<4.4"
+                "symfony/http-kernel": "<5.0.*"
             },
             "type": "library",
             "extra": {
@@ -4441,10 +4441,10 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/inflector": "^4.4|^5.0"
+                "symfony/inflector": "^5.0.*|^5.0"
             },
             "require-dev": {
-                "symfony/cache": "^4.4|^5.0"
+                "symfony/cache": "^5.0.*|^5.0"
             },
             "suggest": {
                 "psr/cache-implementation": "To cache access methods."
@@ -4508,19 +4508,19 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/inflector": "^4.4|^5.0"
+                "symfony/inflector": "^5.0.*|^5.0"
             },
             "conflict": {
                 "phpdocumentor/reflection-docblock": "<3.2.2",
                 "phpdocumentor/type-resolver": "<0.3.0",
-                "symfony/dependency-injection": "<4.4"
+                "symfony/dependency-injection": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.7",
                 "phpdocumentor/reflection-docblock": "^3.0|^4.0",
-                "symfony/cache": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/serializer": "^4.4|^5.0"
+                "symfony/cache": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/serializer": "^5.0.*|^5.0"
             },
             "suggest": {
                 "phpdocumentor/reflection-docblock": "To use the PHPDoc",
@@ -4587,17 +4587,17 @@
             },
             "conflict": {
                 "symfony/config": "<5.0",
-                "symfony/dependency-injection": "<4.4",
-                "symfony/yaml": "<4.4"
+                "symfony/dependency-injection": "<5.0.*",
+                "symfony/yaml": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.2",
                 "psr/log": "~1.0",
                 "symfony/config": "^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "suggest": {
                 "doctrine/annotations": "For using the annotation loader",
@@ -4661,38 +4661,38 @@
             "require": {
                 "ext-xml": "*",
                 "php": "^7.2.5",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
                 "symfony/http-kernel": "^5.0",
-                "symfony/security-core": "^4.4|^5.0",
-                "symfony/security-csrf": "^4.4|^5.0",
-                "symfony/security-guard": "^4.4|^5.0",
-                "symfony/security-http": "^4.4.3|^5.0.3"
+                "symfony/security-core": "^5.0.*|^5.0",
+                "symfony/security-csrf": "^5.0.*|^5.0",
+                "symfony/security-guard": "^5.0.*|^5.0",
+                "symfony/security-http": "^5.0.*.3|^5.0.3"
             },
             "conflict": {
-                "symfony/browser-kit": "<4.4",
-                "symfony/console": "<4.4",
-                "symfony/framework-bundle": "<4.4",
-                "symfony/ldap": "<4.4",
-                "symfony/twig-bundle": "<4.4"
+                "symfony/browser-kit": "<5.0.*",
+                "symfony/console": "<5.0.*",
+                "symfony/framework-bundle": "<5.0.*",
+                "symfony/ldap": "<5.0.*",
+                "symfony/twig-bundle": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/doctrine-bundle": "^2.0",
-                "symfony/asset": "^4.4|^5.0",
-                "symfony/browser-kit": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/css-selector": "^4.4|^5.0",
-                "symfony/dom-crawler": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/form": "^4.4|^5.0",
-                "symfony/framework-bundle": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0",
-                "symfony/serializer": "^4.4|^5.0",
-                "symfony/translation": "^4.4|^5.0",
-                "symfony/twig-bridge": "^4.4|^5.0",
-                "symfony/twig-bundle": "^4.4|^5.0",
-                "symfony/validator": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0",
+                "symfony/asset": "^5.0.*|^5.0",
+                "symfony/browser-kit": "^5.0.*|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/css-selector": "^5.0.*|^5.0",
+                "symfony/dom-crawler": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/form": "^5.0.*|^5.0",
+                "symfony/framework-bundle": "^5.0.*|^5.0",
+                "symfony/process": "^5.0.*|^5.0",
+                "symfony/serializer": "^5.0.*|^5.0",
+                "symfony/translation": "^5.0.*|^5.0",
+                "symfony/twig-bridge": "^5.0.*|^5.0",
+                "symfony/twig-bundle": "^5.0.*|^5.0",
+                "symfony/validator": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0",
                 "twig/twig": "^2.10|^3.0"
             },
             "type": "symfony-bundle",
@@ -4747,18 +4747,18 @@
                 "symfony/service-contracts": "^1.1.6|^2"
             },
             "conflict": {
-                "symfony/event-dispatcher": "<4.4",
-                "symfony/ldap": "<4.4",
-                "symfony/security-guard": "<4.4"
+                "symfony/event-dispatcher": "<5.0.*",
+                "symfony/ldap": "<5.0.*",
+                "symfony/security-guard": "<5.0.*"
             },
             "require-dev": {
                 "psr/container": "^1.0",
                 "psr/log": "~1.0",
-                "symfony/event-dispatcher": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/ldap": "^4.4|^5.0",
-                "symfony/validator": "^4.4|^5.0"
+                "symfony/event-dispatcher": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/ldap": "^5.0.*|^5.0",
+                "symfony/validator": "^5.0.*|^5.0"
             },
             "suggest": {
                 "psr/container-implementation": "To instantiate the Security class",
@@ -4816,13 +4816,13 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/security-core": "^4.4|^5.0"
+                "symfony/security-core": "^5.0.*|^5.0"
             },
             "conflict": {
-                "symfony/http-foundation": "<4.4"
+                "symfony/http-foundation": "<5.0.*"
             },
             "require-dev": {
-                "symfony/http-foundation": "^4.4|^5.0"
+                "symfony/http-foundation": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/http-foundation": "For using the class SessionTokenStorage."
@@ -4876,7 +4876,7 @@
             "require": {
                 "php": "^7.2.5",
                 "symfony/security-core": "^5.0",
-                "symfony/security-http": "^4.4.1|^5.0.1"
+                "symfony/security-http": "^5.0.*.1|^5.0.1"
             },
             "require-dev": {
                 "psr/log": "~1.0"
@@ -4929,18 +4929,18 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/property-access": "^4.4|^5.0",
-                "symfony/security-core": "^4.4|^5.0"
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/property-access": "^5.0.*|^5.0",
+                "symfony/security-core": "^5.0.*|^5.0"
             },
             "conflict": {
-                "symfony/security-csrf": "<4.4"
+                "symfony/security-csrf": "<5.0.*"
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/routing": "^4.4|^5.0",
-                "symfony/security-csrf": "^4.4|^5.0"
+                "symfony/routing": "^5.0.*|^5.0",
+                "symfony/security-csrf": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/routing": "For using the HttpUtils class to create sub-requests, redirect the user, and match URLs",
@@ -4998,25 +4998,25 @@
             },
             "conflict": {
                 "phpdocumentor/type-resolver": "<0.2.1",
-                "symfony/dependency-injection": "<4.4",
-                "symfony/property-access": "<4.4",
-                "symfony/property-info": "<4.4",
-                "symfony/yaml": "<4.4"
+                "symfony/dependency-injection": "<5.0.*",
+                "symfony/property-access": "<5.0.*",
+                "symfony/property-info": "<5.0.*",
+                "symfony/yaml": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
                 "doctrine/cache": "~1.0",
                 "phpdocumentor/reflection-docblock": "^3.2|^4.0",
-                "symfony/cache": "^4.4|^5.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/error-handler": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/mime": "^4.4|^5.0",
-                "symfony/property-access": "^4.4|^5.0",
-                "symfony/property-info": "^4.4|^5.0",
-                "symfony/validator": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/cache": "^5.0.*|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/error-handler": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/mime": "^5.0.*|^5.0",
+                "symfony/property-access": "^5.0.*|^5.0",
+                "symfony/property-info": "^5.0.*|^5.0",
+                "symfony/validator": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "suggest": {
                 "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
@@ -5282,25 +5282,25 @@
                 "symfony/translation-contracts": "^2"
             },
             "conflict": {
-                "symfony/config": "<4.4",
+                "symfony/config": "<5.0.*",
                 "symfony/dependency-injection": "<5.0",
                 "symfony/http-kernel": "<5.0",
                 "symfony/twig-bundle": "<5.0",
-                "symfony/yaml": "<4.4"
+                "symfony/yaml": "<5.0.*"
             },
             "provide": {
                 "symfony/translation-implementation": "2.0"
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
                 "symfony/dependency-injection": "^5.0",
-                "symfony/finder": "^4.4|^5.0",
+                "symfony/finder": "^5.0.*|^5.0",
                 "symfony/http-kernel": "^5.0",
-                "symfony/intl": "^4.4|^5.0",
+                "symfony/intl": "^5.0.*|^5.0",
                 "symfony/service-contracts": "^1.1.2|^2",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "suggest": {
                 "psr/log-implementation": "To use logging capability in translator",
@@ -5416,35 +5416,35 @@
                 "twig/twig": "^2.10|^3.0"
             },
             "conflict": {
-                "symfony/console": "<4.4",
+                "symfony/console": "<5.0.*",
                 "symfony/form": "<5.0",
-                "symfony/http-foundation": "<4.4",
-                "symfony/http-kernel": "<4.4",
+                "symfony/http-foundation": "<5.0.*",
+                "symfony/http-kernel": "<5.0.*",
                 "symfony/translation": "<5.0",
-                "symfony/workflow": "<4.4"
+                "symfony/workflow": "<5.0.*"
             },
             "require-dev": {
                 "egulias/email-validator": "^2.1.10",
-                "symfony/asset": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/finder": "^4.4|^5.0",
+                "symfony/asset": "^5.0.*|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/finder": "^5.0.*|^5.0",
                 "symfony/form": "^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/mime": "^4.4|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/mime": "^5.0.*|^5.0",
                 "symfony/polyfill-intl-icu": "~1.0",
-                "symfony/routing": "^4.4|^5.0",
+                "symfony/routing": "^5.0.*|^5.0",
                 "symfony/security-acl": "^2.8|^3.0",
-                "symfony/security-core": "^4.4|^5.0",
-                "symfony/security-csrf": "^4.4|^5.0",
-                "symfony/security-http": "^4.4|^5.0",
-                "symfony/stopwatch": "^4.4|^5.0",
+                "symfony/security-core": "^5.0.*|^5.0",
+                "symfony/security-csrf": "^5.0.*|^5.0",
+                "symfony/security-http": "^5.0.*|^5.0",
+                "symfony/stopwatch": "^5.0.*|^5.0",
                 "symfony/translation": "^5.0",
-                "symfony/web-link": "^4.4|^5.0",
-                "symfony/workflow": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0",
+                "symfony/web-link": "^5.0.*|^5.0",
+                "symfony/workflow": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0",
                 "twig/cssinliner-extra": "^2.12",
                 "twig/inky-extra": "^2.12",
                 "twig/markdown-extra": "^2.12"
@@ -5513,32 +5513,32 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
                 "symfony/http-kernel": "^5.0",
                 "symfony/polyfill-ctype": "~1.8",
                 "symfony/twig-bridge": "^5.0",
                 "twig/twig": "^2.10|^3.0"
             },
             "conflict": {
-                "symfony/dependency-injection": "<4.4",
+                "symfony/dependency-injection": "<5.0.*",
                 "symfony/framework-bundle": "<5.0",
                 "symfony/translation": "<5.0"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.7",
                 "doctrine/cache": "~1.0",
-                "symfony/asset": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/finder": "^4.4|^5.0",
-                "symfony/form": "^4.4|^5.0",
+                "symfony/asset": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/finder": "^5.0.*|^5.0",
+                "symfony/form": "^5.0.*|^5.0",
                 "symfony/framework-bundle": "^5.0",
-                "symfony/routing": "^4.4|^5.0",
-                "symfony/stopwatch": "^4.4|^5.0",
+                "symfony/routing": "^5.0.*|^5.0",
+                "symfony/stopwatch": "^5.0.*|^5.0",
                 "symfony/translation": "^5.0",
-                "symfony/web-link": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/web-link": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -5623,28 +5623,28 @@
             "conflict": {
                 "doctrine/lexer": "<1.0.2",
                 "phpunit/phpunit": "<5.4.3",
-                "symfony/dependency-injection": "<4.4",
-                "symfony/http-kernel": "<4.4",
-                "symfony/intl": "<4.4",
-                "symfony/translation": "<4.4",
-                "symfony/yaml": "<4.4"
+                "symfony/dependency-injection": "<5.0.*",
+                "symfony/http-kernel": "<5.0.*",
+                "symfony/intl": "<5.0.*",
+                "symfony/translation": "<5.0.*",
+                "symfony/yaml": "<5.0.*"
             },
             "require-dev": {
                 "doctrine/annotations": "~1.7",
                 "doctrine/cache": "~1.0",
                 "egulias/email-validator": "^2.1.10",
-                "symfony/cache": "^4.4|^5.0",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/expression-language": "^4.4|^5.0",
-                "symfony/http-client": "^4.4|^5.0",
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/intl": "^4.4|^5.0",
-                "symfony/property-access": "^4.4|^5.0",
-                "symfony/property-info": "^4.4|^5.0",
-                "symfony/translation": "^4.4|^5.0",
-                "symfony/yaml": "^4.4|^5.0"
+                "symfony/cache": "^5.0.*|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/expression-language": "^5.0.*|^5.0",
+                "symfony/http-client": "^5.0.*|^5.0",
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/intl": "^5.0.*|^5.0",
+                "symfony/property-access": "^5.0.*|^5.0",
+                "symfony/property-info": "^5.0.*|^5.0",
+                "symfony/translation": "^5.0.*|^5.0",
+                "symfony/yaml": "^5.0.*|^5.0"
             },
             "suggest": {
                 "doctrine/annotations": "For using the annotation mapping. You will also need doctrine/cache.",
@@ -5712,12 +5712,12 @@
             },
             "conflict": {
                 "phpunit/phpunit": "<5.4.3",
-                "symfony/console": "<4.4"
+                "symfony/console": "<5.0.*"
             },
             "require-dev": {
                 "ext-iconv": "*",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/process": "^5.0.*|^5.0",
                 "twig/twig": "^2.4|^3.0"
             },
             "suggest": {
@@ -5785,7 +5785,7 @@
                 "php": "^7.2.5"
             },
             "require-dev": {
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -5846,14 +5846,14 @@
                 "psr/link": "^1.0"
             },
             "conflict": {
-                "symfony/http-kernel": "<4.4"
+                "symfony/http-kernel": "<5.0.*"
             },
             "provide": {
                 "psr/link-implementation": "1.0"
             },
             "require-dev": {
-                "symfony/http-foundation": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0"
+                "symfony/http-foundation": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/http-kernel": ""
@@ -5921,10 +5921,10 @@
                 "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
-                "symfony/console": "<4.4"
+                "symfony/console": "<5.0.*"
             },
             "require-dev": {
-                "symfony/console": "^4.4|^5.0"
+                "symfony/console": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
@@ -6041,7 +6041,7 @@
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/phpunit-bridge": "^4.4|^5.0"
+                "symfony/phpunit-bridge": "^5.0.*|^5.0"
             },
             "type": "library",
             "extra": {
@@ -6413,13 +6413,13 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/dom-crawler": "^4.4|^5.0"
+                "symfony/dom-crawler": "^5.0.*|^5.0"
             },
             "require-dev": {
-                "symfony/css-selector": "^4.4|^5.0",
-                "symfony/http-client": "^4.4|^5.0",
-                "symfony/mime": "^4.4|^5.0",
-                "symfony/process": "^4.4|^5.0"
+                "symfony/css-selector": "^5.0.*|^5.0",
+                "symfony/http-client": "^5.0.*|^5.0",
+                "symfony/mime": "^5.0.*|^5.0",
+                "symfony/process": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/process": ""
@@ -6526,18 +6526,18 @@
             "require": {
                 "ext-xml": "*",
                 "php": "^7.2.5",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/twig-bridge": "^4.4|^5.0",
-                "symfony/var-dumper": "^4.4|^5.0"
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/twig-bridge": "^5.0.*|^5.0",
+                "symfony/var-dumper": "^5.0.*|^5.0"
             },
             "conflict": {
-                "symfony/config": "<4.4",
-                "symfony/dependency-injection": "<4.4"
+                "symfony/config": "<5.0.*",
+                "symfony/dependency-injection": "<5.0.*"
             },
             "require-dev": {
-                "symfony/config": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/web-profiler-bundle": "^4.4|^5.0"
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/web-profiler-bundle": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/config": "For service container configuration",
@@ -6629,7 +6629,7 @@
             },
             "require-dev": {
                 "masterminds/html5": "^2.6",
-                "symfony/css-selector": "^4.4|^5.0"
+                "symfony/css-selector": "^5.0.*|^5.0"
             },
             "suggest": {
                 "symfony/css-selector": ""
@@ -6871,23 +6871,23 @@
             },
             "require": {
                 "php": "^7.2.5",
-                "symfony/config": "^4.4|^5.0",
-                "symfony/framework-bundle": "^4.4|^5.0",
-                "symfony/http-kernel": "^4.4|^5.0",
-                "symfony/routing": "^4.4|^5.0",
-                "symfony/twig-bundle": "^4.4|^5.0",
+                "symfony/config": "^5.0.*|^5.0",
+                "symfony/framework-bundle": "^5.0.*|^5.0",
+                "symfony/http-kernel": "^5.0.*|^5.0",
+                "symfony/routing": "^5.0.*|^5.0",
+                "symfony/twig-bundle": "^5.0.*|^5.0",
                 "twig/twig": "^2.10|^3.0"
             },
             "conflict": {
-                "symfony/form": "<4.4",
-                "symfony/messenger": "<4.4"
+                "symfony/form": "<5.0.*",
+                "symfony/messenger": "<5.0.*"
             },
             "require-dev": {
-                "symfony/browser-kit": "^4.4|^5.0",
-                "symfony/console": "^4.4|^5.0",
-                "symfony/css-selector": "^4.4|^5.0",
-                "symfony/dependency-injection": "^4.4|^5.0",
-                "symfony/stopwatch": "^4.4|^5.0"
+                "symfony/browser-kit": "^5.0.*|^5.0",
+                "symfony/console": "^5.0.*|^5.0",
+                "symfony/css-selector": "^5.0.*|^5.0",
+                "symfony/dependency-injection": "^5.0.*|^5.0",
+                "symfony/stopwatch": "^5.0.*|^5.0"
             },
             "type": "symfony-bundle",
             "extra": {
@@ -6923,7 +6923,7 @@
         },
         {
             "name": "symfony/web-server-bundle",
-            "version": "v4.4.4",
+            "version": "v5.0.*.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/web-server-bundle.git",
@@ -6951,7 +6951,7 @@
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.4-dev"
+                    "dev-master": "5.0.*-dev"
                 }
             },
             "autoload": {

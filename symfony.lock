@@ -178,11 +178,11 @@
         "version": "v5.0.4"
     },
     "symfony/console": {
-        "version": "4.4",
+        "version": "5.0.*",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
-            "version": "4.4",
+            "version": "5.0.*",
             "ref": "ea8c0eda34fda57e7d5cd8cbd889e2a387e3472c"
         },
         "files": [
@@ -254,11 +254,11 @@
         "version": "v5.0.4"
     },
     "symfony/framework-bundle": {
-        "version": "4.4",
+        "version": "5.0.*",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
-            "version": "4.4",
+            "version": "5.0.*",
             "ref": "23ecaccc551fe2f74baf613811ae529eb07762fa"
         },
         "files": [
@@ -411,11 +411,11 @@
         ]
     },
     "symfony/security-bundle": {
-        "version": "4.4",
+        "version": "5.0.*",
         "recipe": {
             "repo": "github.com/symfony/recipes",
             "branch": "master",
-            "version": "4.4",
+            "version": "5.0.*",
             "ref": "7b4408dc203049666fe23fabed23cbadc6d8440f"
         },
         "files": [
